@@ -5,8 +5,8 @@ import javax.swing.JOptionPane;
 
 public class BDConnect {
     Connection Connect=null; //Connection Reference Statement
-    String Driver =  "com.mysql.jdbc.Driver"; //"com.mysql.cj.jdbc.Driver";
-    String url ="jdbc:mysql://localhost/estuciante"; // ?autoReconnet=true&useSSL=false";
+    String Driver =  "com.mysql.cj.jdbc.Driver"; //Add Driver
+    String url ="jdbc:mysql://localhost/estudiante"; // ?autoReconnet=true&useSSL=false";
     String user = "root";
     String password = "";
 
